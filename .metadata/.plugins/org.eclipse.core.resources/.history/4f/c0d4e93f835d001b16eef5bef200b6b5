@@ -16,7 +16,7 @@ public class GuiceDemo {
 		if(squareReq.equals(SQUARE_REQ)) {
 			/*DrawShape d = new DrawSquare();*/
 			Injector injector = Guice.createInjector(new AppModule());
-			SquareRequest request = injector.getInstance(SquareRequest.class);
+			Square
 			request.makeRequest();
 		}
 		

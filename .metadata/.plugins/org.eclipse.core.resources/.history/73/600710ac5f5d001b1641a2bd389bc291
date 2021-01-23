@@ -1,0 +1,17 @@
+package com.drawingapp.requests;
+
+import com.drawingapp.services.DrawShape;
+
+public class SquareRequestSubClass extends SquareRequest {
+
+	public SquareRequestSubClass(DrawShape d) {
+		
+		super(d);
+	}
+	
+	@Override
+	public void makeRequest() {
+		d.draw();
+	}
+
+}

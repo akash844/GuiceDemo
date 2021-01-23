@@ -1,0 +1,21 @@
+package com.drawingapp.requests;
+
+import javax.inject.Inject;
+
+import com.drawingapp.services.DrawShape;
+
+public class SquareRequestSubClass extends SquareRequest {
+
+	@Inject
+	public SquareRequestSubClass(DrawShape d) {
+		
+		super(d);
+	}
+	
+	@Override
+	public void makeRequest() {
+		System.out.println("Calling draw method");
+		d.draw();
+	}
+
+}

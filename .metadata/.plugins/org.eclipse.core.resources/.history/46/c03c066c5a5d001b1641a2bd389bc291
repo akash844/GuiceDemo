@@ -1,7 +1,5 @@
 package com.drawingapp.requests;
 
-import javax.inject.Inject;
-
 import com.drawingapp.services.DrawShape;
 
 public class SquareRequest {
