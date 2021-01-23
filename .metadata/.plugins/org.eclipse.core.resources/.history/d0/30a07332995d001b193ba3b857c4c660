@@ -1,0 +1,16 @@
+package com.drawingapp.services;
+
+public class DrawSquare implements DrawShape{
+
+	private String color;
+	private int edge;
+	
+	@Inject
+	public DrawSquare(String color, )
+	
+	@Override
+	public void draw() {
+		System.out.println("Drawing a Square!");
+	}
+	
+}

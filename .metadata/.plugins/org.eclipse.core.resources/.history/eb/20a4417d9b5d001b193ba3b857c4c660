@@ -1,0 +1,5 @@
+package com.drawingapp.annotations;
+
+public @interface EdgeValue {
+
+}

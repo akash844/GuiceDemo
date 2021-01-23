@@ -1,0 +1,11 @@
+package com.drawingapp.annotations;
+
+import com.google.inject.BindingAnnotation;
+import java.lang.annotation.Target;
+import java.lang.annotation.Retention;
+
+@BindingAnnotation
+@Target({ FIELD, PARAMETER, METHOD }) @Retention(RUNTIME);
+public @interface EdgeValue {
+	
+}

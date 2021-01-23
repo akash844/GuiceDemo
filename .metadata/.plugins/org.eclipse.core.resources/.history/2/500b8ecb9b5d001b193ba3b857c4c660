@@ -1,0 +1,9 @@
+package com.drawingapp.annotations;
+
+import com.google.inject.BindingAnnotation;
+
+@BindingAnnotation
+@Target({ FIELD, PARAMETER, METHOD })
+public @interface EdgeValue {
+	
+}
