@@ -2,6 +2,8 @@ package com.drawingapp.main;
 
 import com.drawingapp.module.AppModule;
 import com.drawingapp.requests.SquareRequest;
+import com.drawingapp.services.DrawShape;
+import com.drawingapp.services.DrawSquare;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
