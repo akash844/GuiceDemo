@@ -1,0 +1,24 @@
+package com.drawingapp.main;
+
+public class GuiceDemo {
+
+	private static final String SQUARE_REQ = "SQUARE"; 
+	
+	private static void sendRequest(String squareReq) {
+		
+		if(squareReq.equals(SQUARE_REQ)) {
+			DrawShape d = new DrawSquare();
+			SquareRequest request = SquareRequest();
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		sendRequest(SQUARE_REQ);
+
+	}
+
+	
+
+}

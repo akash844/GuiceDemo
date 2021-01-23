@@ -1,0 +1,6 @@
+package com.drawingapp.module;
+
+public class AppModule extends AbstractModule{
+	
+
+}

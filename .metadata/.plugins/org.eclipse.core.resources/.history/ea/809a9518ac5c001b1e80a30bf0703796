@@ -1,0 +1,6 @@
+package cm.drawingapp.services;
+
+public interface DrawShape {
+	
+
+}

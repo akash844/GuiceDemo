@@ -1,0 +1,13 @@
+package com.drawingapp.main;
+
+public class GuiceDemo {
+
+	private static final String SQUARE_REQ = "SQUARE"; 
+	
+	public static void main(String[] args) {
+		
+		sendRequest(SQUARE_REQ);
+
+	}
+
+}

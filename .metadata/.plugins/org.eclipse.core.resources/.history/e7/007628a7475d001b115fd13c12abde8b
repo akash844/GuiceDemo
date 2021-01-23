@@ -1,0 +1,6 @@
+package com.drawingapp.services;
+
+public class DrawSquare implements DrawShape{
+	
+	
+}

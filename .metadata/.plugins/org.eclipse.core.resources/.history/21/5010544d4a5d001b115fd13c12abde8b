@@ -1,0 +1,32 @@
+package com.drawingapp.main;
+
+import com.drawingapp.requests.SquareRequest;
+import com.drawingapp.services.DrawShape;
+import com.drawingapp.services.DrawSquare;
+import com.google.inject.Injector;
+
+public class GuiceDemo {
+
+	private static final String SQUARE_REQ = "SQUARE"; 
+	
+	private static void sendRequest(String squareReq) {
+		
+		if(squareReq.equals(SQUARE_REQ)) {
+			/*DrawShape d = new DrawSquare();*/
+			Injector injector = null;
+			injector.getInstance(DrawShape.class);
+			SquareRequest request = new SquareRequest(d);
+			request.makeRequest();
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		sendRequest(SQUARE_REQ);
+
+	}
+
+	
+
+}

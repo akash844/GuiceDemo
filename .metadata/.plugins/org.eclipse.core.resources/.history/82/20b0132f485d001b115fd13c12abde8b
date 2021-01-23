@@ -1,0 +1,5 @@
+package com.drawingapp.requests;
+
+public class SquareRequest {
+	DrawShape d;
+}

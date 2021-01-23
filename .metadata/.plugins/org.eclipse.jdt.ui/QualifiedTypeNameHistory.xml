@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.drawingapp.requests.SquareRequest"/>
+    <fullyQualifiedTypeName name="com.google.inject.Injector"/>
+    <fullyQualifiedTypeName name="com.google.inject.AbstractModule"/>
+    <fullyQualifiedTypeName name="com.drawingapp.services.DrawShape"/>
+    <fullyQualifiedTypeName name="com.drawingapp.services.DrawSquare"/>
+    <fullyQualifiedTypeName name="com.google.inject.Guice"/>
+    <fullyQualifiedTypeName name="com.drawingapp.module.AppModule"/>
+</qualifiedTypeNameHistroy>
