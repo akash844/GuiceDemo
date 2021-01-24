@@ -1,0 +1,10 @@
+package com.drawingapp.annotations;
+
+import com.google.inject.BindingAnnotation;
+
+
+@BindingAnnotation
+@Target({ FIELD, PARAMETER, METHDO}) @RETENTION(RUNTIME);
+public @interface Circle {
+
+}

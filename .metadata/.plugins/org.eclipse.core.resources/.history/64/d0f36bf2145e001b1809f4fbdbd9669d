@@ -2,7 +2,6 @@ package com.drawingapp.requests;
 
 import javax.inject.Inject;
 
-import com.drawingapp.annotations.Square;
 import com.drawingapp.services.DrawShape;
 
 public class SquareRequest {
@@ -10,7 +9,7 @@ public class SquareRequest {
 	DrawShape d;
 	
 	@Inject
-	SquareRequest(@Square DrawShape d) {
+	SquareRequest(DrawShape d) {
 		this.d = d;
 	}
 	

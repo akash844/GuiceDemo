@@ -2,15 +2,15 @@ package com.drawingapp.requests;
 
 import javax.inject.Inject;
 
-import com.drawingapp.annotations.Square;
+import com.drawingapp.annotations.Circle;
 import com.drawingapp.services.DrawShape;
 
-public class SquareRequest {
+public class CircleRequest {
 	
 	DrawShape d;
 	
 	@Inject
-	SquareRequest(@Square DrawShape d) {
+	CircleRequest(@Circle DrawShape d) {
 		this.d = d;
 	}
 	

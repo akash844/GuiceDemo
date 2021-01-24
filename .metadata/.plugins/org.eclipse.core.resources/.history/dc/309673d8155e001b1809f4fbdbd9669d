@@ -1,7 +1,6 @@
 package com.drawingapp.main;
 
 import com.drawingapp.module.AppModule;
-import com.drawingapp.requests.CircleRequest;
 import com.drawingapp.requests.SquareRequest;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -20,19 +19,12 @@ public class GuiceDemo {
 			request.makeRequest();
 		}
 		
-		if(squareReq.equals(CIRCLE_REQ)) {
-			
-			Injector injector = Guice.createInjector(new AppModule());
-			CircleRequest request = injector.getInstance(CircleRequest.class);
-			request.makeRequest();
-		}
-		
 	}
 	
 	public static void main(String[] args) {
 		
 		sendRequest(SQUARE_REQ);
-		sendRequest(CIRCLE_REQ);
+
 	}
 
 }
