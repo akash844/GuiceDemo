@@ -5,13 +5,15 @@ import javax.inject.Inject;
 import com.drawingapp.services.DrawShape;
 
 public class SquareRequest {
-	
-	@Inject
+	 
 	DrawShape d;
 	
 	public void makeRequest() {
 		d.draw();
 	}
 	
-	
+	@Inject
+	public void setDrawShape(DrawShape d) {
+		this.d = d;
+	}
 }
