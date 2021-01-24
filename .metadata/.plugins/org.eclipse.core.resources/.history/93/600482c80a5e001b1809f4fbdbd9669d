@@ -15,14 +15,9 @@ public class GuiceDemo {
 			/*DrawShape d = new DrawSquare();*/
 			Injector injector = Guice.createInjector(new AppModule());
 			SquareRequest request1 = injector.getInstance(SquareRequest.class);
-			request1.makeRequest(); 
+			request.makeRequest(); 
 			
 			SquareRequest request2 = injector.getInstance(SquareRequest.class);
-			request2.makeRequest();
-			
-			boolean areSquareRequestsEqual = request1 == request2;
-			System.out.println("Are SquareRequests equal : " + areSquareRequestsEqual);
-			
 		}
 		
 	}

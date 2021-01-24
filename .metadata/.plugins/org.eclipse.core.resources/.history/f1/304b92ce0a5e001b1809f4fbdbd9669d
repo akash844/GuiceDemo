@@ -18,10 +18,6 @@ public class GuiceDemo {
 			request1.makeRequest(); 
 			
 			SquareRequest request2 = injector.getInstance(SquareRequest.class);
-			request2.makeRequest();
-			
-			boolean areSquareRequestsEqual = request1 == request2;
-			System.out.println("Are SquareRequests equal : " + areSquareRequestsEqual);
 			
 		}
 		

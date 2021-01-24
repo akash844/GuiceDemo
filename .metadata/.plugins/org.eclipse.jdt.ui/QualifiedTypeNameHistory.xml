@@ -9,4 +9,12 @@
     <fullyQualifiedTypeName name="com.drawingapp.requests.SquareRequest"/>
     <fullyQualifiedTypeName name="com.drawingapp.requests.SquareRequestSubClass"/>
     <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="com.google.inject.BindingAnnotation"/>
+    <fullyQualifiedTypeName name="com.google.common.reflect.Parameter"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="com.drawingapp.annotations.EdgeValue"/>
+    <fullyQualifiedTypeName name="com.drawingapp.annotations.ColorValue"/>
 </qualifiedTypeNameHistroy>

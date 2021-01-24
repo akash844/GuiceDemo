@@ -6,14 +6,14 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/animal-sniffer-annotations-1.14.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/checker-compat-qual-2.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/error_prone_annotations-2.1.3.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/guava-25.1-android.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/guice-4.2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/j2objc-annotations-1.1.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/javax.inject-1.jar"/>
-	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/1. Introduction and Env set up/JarsForGuice/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/guava-25.1-android.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/guice-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="/Users/kagarg/Downloads/Injection-Google-Guice/Done/1. Introduction and Env set up/JarsForGuice/jsr305-3.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
